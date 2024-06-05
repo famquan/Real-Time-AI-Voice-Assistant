@@ -9,7 +9,7 @@ const {play , initialize} = require('./models/playht');
 // const {neets} = require('./models/neets');
 
 
-dotenv.config();
+dotenv.config({ path:".env.local"});
 
 let stack = [{
   'role': 'system',
